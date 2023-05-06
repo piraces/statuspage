@@ -2,8 +2,9 @@ name: Scheduled Health Check
 
 # Controls when the action will run.
 on:
-  schedule:
-    - cron: "30 * * * *"
+  # Disable for now: no usage :(
+  #schedule:
+  #  - cron: "30 * * * *"
   workflow_dispatch:
 
 jobs:
